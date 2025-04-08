@@ -1,0 +1,16 @@
+baseURL = 'https://snnmst.github.io/'  # GitHub Pages kullanıcı adı
+languageCode = 'en-us'
+title = 'Benim Blogum'
+theme = 'PaperMod'
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Sinan Mustu"
+  description = "Personal Blog Page"
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  homeInfoParams = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
