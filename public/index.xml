@@ -22,5 +22,15 @@
       <guid>https://snnmst.netlify.app/posts/first-content/</guid>
       <description>&lt;p&gt;Hello world! This is first post.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>About</title>
+      <link>https://snnmst.netlify.app/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://snnmst.netlify.app/about/</guid>
+      <description>&lt;p&gt;👋 Hey there! I&amp;rsquo;m Sinan&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m pursuing my Master&amp;rsquo;s in Data Science and Artificial Intelligence at Bogazici University Istanbul.
+🌱  I&amp;rsquo;m deeply engaged in the intersection of machine learning, deep learning, reinforcement learning, computer vision, and LLM-based NLP. I’m particularly interested in RAG architectures, RLHF pipelines, and agent-based reasoning. My goal is to turn cutting-edge techniques into scalable, real-world solutions.&lt;/p&gt;
+&lt;p&gt;The projects and posts I share here reflect my personal learning journey and interests in AI.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

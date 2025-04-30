@@ -1,7 +1,7 @@
 ---
 title: "About"
 url: "/about/"
-draft: true
+draft: false
 ---
 
 👋 Hey there! I'm Sinan
