@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snnmst.netlify.app/</loc>
-    <lastmod>2025-04-30T22:10:53+03:00</lastmod>
-  </url><url>
     <loc>https://snnmst.netlify.app/posts/</loc>
     <lastmod>2025-04-30T22:10:53+03:00</lastmod>
   </url><url>
     <loc>https://snnmst.netlify.app/posts/rag/</loc>
+    <lastmod>2025-04-30T22:10:53+03:00</lastmod>
+  </url><url>
+    <loc>https://snnmst.netlify.app/</loc>
     <lastmod>2025-04-30T22:10:53+03:00</lastmod>
   </url><url>
     <loc>https://snnmst.netlify.app/posts/first-content/</loc>
