@@ -1,4 +1,6 @@
-baseURL = 'https://snnmst.github.io/'  # GitHub Pages kullanıcı adı
+baseURL = "https://snnmst.netlify.app/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'Benim Blogum'
 theme = 'PaperMod'

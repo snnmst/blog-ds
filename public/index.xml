@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Benim Blogum</title>
-    <link>https://snnmst.github.io/</link>
+    <link>https://snnmst.netlify.app/</link>
     <description>Recent content on Benim Blogum</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Apr 2025 22:10:53 +0300</lastBuildDate>
-    <atom:link href="https://snnmst.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://snnmst.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAG</title>
-      <link>https://snnmst.github.io/posts/rag/</link>
+      <link>https://snnmst.netlify.app/posts/rag/</link>
       <pubDate>Wed, 30 Apr 2025 22:10:53 +0300</pubDate>
-      <guid>https://snnmst.github.io/posts/rag/</guid>
+      <guid>https://snnmst.netlify.app/posts/rag/</guid>
       <description>&lt;p&gt;RAG (Retrieval-Augmented Generation), büyük dil modellerine dış veri kaynağı entegre ederek daha güncel ve doğru yanıtlar almamızı sağlar&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Content</title>
-      <link>https://snnmst.github.io/posts/first-content/</link>
+      <link>https://snnmst.netlify.app/posts/first-content/</link>
       <pubDate>Mon, 07 Apr 2025 10:00:00 +0300</pubDate>
-      <guid>https://snnmst.github.io/posts/first-content/</guid>
+      <guid>https://snnmst.netlify.app/posts/first-content/</guid>
       <description>&lt;p&gt;Hello world! This is first post.&lt;/p&gt;</description>
     </item>
   </channel>
