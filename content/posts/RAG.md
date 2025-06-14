@@ -1,10 +1,9 @@
 ---
-date : 2025-06-14T22:5:+18:00
-draft : false
-title : ' Parametric vs Non-Parametric Models in Supervised Learning'
+date: 2025-06-14T20:30:00+03:00
+draft: false
+title: 'Parametric vs Non-Parametric Models in Supervised Learning'
 ---
 
-# Parametric vs Non-Parametric Models in Supervised Learning
 
 Supervised learning models can be broadly categorized into two main types: parametric and non-parametric models. Understanding the differences between these approaches is crucial for selecting the right model for your machine learning tasks.
 
