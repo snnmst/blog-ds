@@ -50,7 +50,7 @@ That is, even if the data increases, the capacity of the model (number of parame
 
 🔍 Let's Explain with Examples:
 
-1. Linear Regression (tek değişkenli):
+1. Linear Regression (univariate):
 y = w * x + b
 Number of parameters = 2 (w, b)
 → No matter how much data you give, the model structure does not change.
