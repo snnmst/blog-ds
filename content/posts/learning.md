@@ -91,7 +91,7 @@ We missed. The error is **0.04**. We need to change the weight to reduce this er
 
 **Eureka!** The error is 0. We found the perfect weight.
 
-![Parametric vs Non-Parametric Models](/images/weight_opt_img.png)
+![Guessing Process](/images/weight_opt.png)
 
 ## The Problem with Guessing
 
