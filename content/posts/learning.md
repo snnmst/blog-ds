@@ -4,58 +4,6 @@ draft: false
 title: 'Machine Learning 101: What Does "Learning" Actually Mean?'
 ---
 
-We often hear buzzwords: Artificial Intelligence, Machine Learning, Deep Learning... But wait, the machine is learning what? And exactly how?
-
-Most courses and books follow the same organized curriculum: Supervised Learning, Unsupervised Learning, Gradient Descent, Learning Rate, Hyperparameter Tuning, etc. But before diving into these complex terms, we need to answer a fundamental question: What is "learning"?
-
-While revisiting Grokking Deep Learning by Andrew W. Trask [1], I was reminded of a simple truth: "If you can explain something in simple terms, you really understand it." Trask explains concepts like prediction and gradient descent without drowning in technical jargon. Inspired by this, I want to explore what prediction really is and what "learning" means for a machine.
-
-The Anatomy of Prediction
-
-Let’s keep it simple. Regardless of the project, we always have three components:
-
-1. Input: The data we have (e.g., 2).
-2. True Value (Label): The result we want to achieve (e.g., 0.8).
-3. Weight: The magic number that determines the importance of the input.
-
-To find the relationship between the Input and the True Value, we need a mechanism. This is where we encounter the "Weight".
-
-We try to predict the output by processing the input through this weight. Simply put:
-
-Prediction = Input × Weight
-
-But Why Multiply?
-
-You might ask: "Why did we multiply the input and weight? Why didn't we add or subtract them?" This is a crucial intuition that is often overlooked.
-
-1. Addition/Subtraction doesn't express "Importance": If we just added the weight, it would only apply a constant offset, regardless of whether the input is huge or tiny. It cannot scale the effect of the input.
-
-2. Multiplication allows "Scaling": it can amplify or dampen the input signal.
-  * If w > 1, it amplifies the input.
-  * If 0 < w < 1, it reduces (dampens) the input's effect.
-  * If w < 0, it reverses the relationship (negative correlation).
-
-This flexibility is exactly what allows a model to "learn" complex patterns.
-
-Defining the "Error"
-
-If we have a Prediction and a True Value, we naturally have an Error. We need to measure how far off we are to improve our next guess.
-
-Intuitively, error is: Error = Prediction - True Value
-
-But wait, is it that simple? Let's say our target is 100.
-
-* Guess 1: 1100 → Error = 1000 (Too high)
-* Guess 2: -900 → Error = -1000 (Too low)
-
-If we sum these errors, we get 0. It looks like we were perfect, but in reality, we missed by a huge margin twice! To prevent positive and negative errors from canceling each other out, we use the squared error:
-
-Error = (Prediction - True Value)²
-
-By squaring the difference, we ensure that the error is always positive, and we punish larger mistakes more severely.
-
-# Machine Learning 101: What Does "Learning" Actually Mean?
-
 We often hear buzzwords: Artificial Intelligence, Machine Learning, Deep Learning... But wait, machine is learning *what*? And exactly *how*?
 
 Most courses and books follow the same organized curriculum: Supervised Learning, Unsupervised Learning, Gradient Descent, Learning Rate, Hyperparameter Tuning, etc. But before diving into these complex terms, we need to answer a fundamental question: **What is "learning"?**
