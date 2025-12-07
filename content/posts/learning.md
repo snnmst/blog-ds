@@ -8,7 +8,7 @@ We often hear buzzwords: Artificial Intelligence, Machine Learning, Deep Learnin
 
 Most courses and books follow the same organized curriculum: Supervised Learning, Unsupervised Learning, Gradient Descent, Learning Rate, Hyperparameter Tuning, etc. But before diving into these complex terms, we need to answer a fundamental question: **What is "learning"?**
 
-While revisiting *Grokking Deep Learning* by Andrew W. Trask, I was reminded of a simple truth: *"If you can explain something in simple terms, you really understand it."* Trask explains concepts like prediction and gradient descent without drowning in technical jargon. Inspired by this, I want to explore what prediction really is and what "learning" means for a machine.
+While revisiting [*Grokking Deep Learning*](https://www.link-adresi.com) by Andrew W. Trask, I was reminded of a simple truth: *"If you can explain something in simple terms, you really understand it."* Trask explains concepts like prediction and gradient descent without drowning in technical jargon. Inspired by this, I want to explore what prediction really is and what "learning" means for a machine.
 
 ## The Anatomy of Prediction
 
